@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form khảo sát người dùng</title>
+</head>
+<body>
+    <h5>Giới tính</h5>
+    <input type="radio" name = "gender" value="male" id="male-radio">
+    <label for="male-radio">Nam</label>
+    <input type="radio" name = "gender" value="female" id="female-radio">
+    <label for="female-radio">Nữ</label><br>
+    <h5>Bạn đã trên 18 tuổi chưa?</h5>
+    <input type="radio" name="age" value="yes" id="age-yes">
+    <label for="age-yes">Có</label><br>
+    <h5>Bạn có thường sử dụng internet cho việc học hay không?</h5>
+    <textarea name="comments" rows="4" cols="50" placeholder="Nhập ý kiến của bạn tại đây..."></textarea><br>
+    <h5>Bạn nghĩ độ tuổi bao nhiêu là độ tuổi thích hợp cho con trẻ sử dụng internet?</h5>
+    <select name="age-range">
+        <option value="0-5">0-5 tuổi</option>
+        <option value="5-10">5-10 tuổi</option>
+        <option value="10-15">10-15 tuổi</option>
+    </select><br>
+    <input type="submit" value="Submit">
+</body>
+</html>
